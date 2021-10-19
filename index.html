@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="name">Конвертер мак адресов</h1>
+    <div class="border">
+        <div class="border__items border__items--left">
+            <p class="border__text">Введите мак адрес который будем конвертировать</p>
+            <input class="border__macin" type="text" name="mac" placeholder="aa:aa:aa:aa:aa:aa">
+            <button class="border__btn">конвертировать</button>
+        </div>
+        <div class="border__items border__items--right">        
+        <p class="border__text">Готовые мак адреса для работы:</p>        
+        <div class="rside__board">
+            <ol class="rside__mac">
+                <li class="rside__mac--items dlink">aa-aa-aa-aa-aa-aa</li>
+                <li class="rside__mac--items billing">aa:aa:aa:aa:aa:aa</li>
+                <li class="rside__mac--items cdata">aaaa.aaaa.aaaa</li>
+                <li class="rside__mac--items hp">aaaa-aaaa-aaaa </li>
+            </ol>
+            <ul class="rside__prdct">
+                <li class="rside__prdct--items">D-Link</li>
+                <li class="rside__prdct--items">Billing</li>
+                <li class="rside__prdct--items">C-Data</li>
+                <li class="rside__prdct--items">3-Com</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+<script src="./js/screapt.js"></script>
+</body>
+
+</html>
