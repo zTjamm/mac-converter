@@ -17,7 +17,7 @@ macIn.addEventListener("blur", (e) => {
     macHp.textContent = lm.replace(/(....\B)/g, "$1-");
 })
 // const macTest = 'ab:Cd-47.f5:Ac-B3';
-// console.log(macTest.toLowerCase().replace(/[:.-]/g, ""));
+console.log(macTest.toLowerCase().replace(/[:.-]/g, ""));
 
 
 
